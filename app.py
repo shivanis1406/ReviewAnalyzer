@@ -299,8 +299,7 @@ if __name__ == "__main__":
         "Pricing": ["affordable", "expensive", "value for money"],
         "Brand and Packaging": ["brand reputation", "packaging", "unboxing", "dust bag"],
         "Delivery and Condition": ["delivery time", "damaged", "packaging quality"],
-        "Customer Support": ["responsive", "return", "exchange", "warranty"],
-        "Sentiment": ["positive", "negative", "neutral"]
+        "Customer Support": ["responsive", "return", "exchange", "warranty"]
     }
 
     # Analyze reviews
