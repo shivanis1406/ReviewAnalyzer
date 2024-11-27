@@ -167,7 +167,8 @@ def plot_reason_pie_charts(results: List[Dict], save_path: str = None):
     sentiments = ['Positive', 'Negative']
     reason_data = {'Positive': {}, 'Negative': {}}
     
-    for item in results:
+    for raw_item in results:
+        item = raw_item['response']
         for label in item.get('labels', []):
             sentiment = label['sentiment']
             subcategory = label['sub_category']
