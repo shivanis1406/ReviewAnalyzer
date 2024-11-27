@@ -607,8 +607,9 @@ if __name__ == "__main__":
     reviews = reviews_1 + reviews_2
 
     #print(f"Reviews are {reviews}")
-
-    N = 5
+    #Number of reviews to analyze
+    N = 50
+    
     # Analyze reviews
     review_analysis = analyze_reviews(reviews[:N], detailed_taxonomy)
 
